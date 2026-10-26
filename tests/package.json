@@ -1,0 +1,13 @@
+{
+  "name": "royale-pandawa-site-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated functional checks for the Royale Pandawa Estate website (royalepandawa.com).",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0"
+  }
+}
